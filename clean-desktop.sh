@@ -29,10 +29,10 @@ while [ 0 -lt 1 ]; do
 		sleep 3
 
 		# directory has been modified
-		# grap file name
+		# grab file name
 		FILE=$(ls -c1 ~/Desktop | head -1)
 
-		# grap file extension
+		# grab file extension
 		EXT=$(ls -c1 ~/Desktop | head -1 | sed "s|.*\.||")
 
 		# check file extension against music
